@@ -1,0 +1,35 @@
+body,
+html {
+  margin: 0;
+  padding: 0;
+}
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 100px;
+}
+.table-gov {
+  border-collapse: collapse;
+  margin: 0;
+  padding: 0;
+  background-color: #ffae00;
+}
+.table-gov thead td,
+.table-gov tbody td,
+.table-gov tbody tr {
+  border: solid 0.5px #003180;
+  color: #ffffff;
+  padding: 0px 15px 0px 15px;
+}
+.table-gov thead td {
+  text-align: center;
+  padding: 0;
+}
+.table-gov tbody td,
+.table-gov tbody tr {
+  text-align: left;
+}
+.table-gov-list li {
+  list-style: url(./res/icon.png);
+}
